@@ -2,7 +2,15 @@ import 'package:nc_flutter_test_bdd_basic_steps/nc_flutter_test_bdd_basic_steps.
 import 'package:test/test.dart';
 
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
+  group('A group of tests', () {
+    final awesome = Awesome();
+
+    setUp(() {
+      // Additional setup goes here.
+    });
+
+    test('First Test', () {
+      expect(awesome.isAwesome, isTrue);
+    });
   });
 }
