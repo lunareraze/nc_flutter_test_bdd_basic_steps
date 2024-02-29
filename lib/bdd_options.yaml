@@ -1,2 +1,30 @@
-externalSteps: package:nc_flutter_test_bdd_basic_steps/step/i_see_text.dart
-  package:nc_flutter_test_bdd_basic_steps/step/i_wait.dart
+externalSteps:
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_text.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_dont_see_text.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_multiple_texts.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_tap_text.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_icon.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_dont_see_icon.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_tap_icon.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_rich_text.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_dont_see_rich_text.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_widget.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_dont_see_widget.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_exactly_widgets.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_multiple_widgets.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_enter_into_input_field.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_disabled_elevated_button.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_enabled_elevated_button.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_wait.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_dismiss_the_page.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_tap_widget.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_tap_at_widget.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_delete_at_input_field.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_tap_widget_with_text.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_tap_register_button.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_at_last_one_text.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_two_widgets.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_see_widget_with_text.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_tap_widget_with_text.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_tap_login_button.dart
+  - package:nc_flutter_test_bdd_basic_steps/step/i_tap_register_button.dart
