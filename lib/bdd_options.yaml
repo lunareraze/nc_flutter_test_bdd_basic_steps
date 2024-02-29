@@ -1,0 +1,2 @@
+externalSteps: package:nc_flutter_test_bdd_basic_steps/step/i_see_text.dart
+  package:nc_flutter_test_bdd_basic_steps/step/i_wait.dart
